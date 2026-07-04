@@ -19,5 +19,6 @@ public class Average {
         int num3 = sc.nextInt();
         
         System.out.println("Average of 3 numbers are "+average(num1, num2, num3));
+        sc.close();
     }
 }

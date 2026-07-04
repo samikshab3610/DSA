@@ -30,5 +30,7 @@ public class problem1 {
                 }
             }
         }
+
+        sc.close();
     }
 }

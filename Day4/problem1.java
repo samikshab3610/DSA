@@ -14,5 +14,7 @@ public class problem1 {
         }
         System.err.println(sum);
 
+        sc.close();
+
     }
 }

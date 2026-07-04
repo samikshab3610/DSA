@@ -25,5 +25,6 @@ public class problem3 {
         }else{
             System.out.println("The array is not sorted");
         }
+        sc.close();
     }
 }

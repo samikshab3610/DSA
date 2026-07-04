@@ -32,6 +32,7 @@ public class problem1 {
 
         isPrime(num);
         
+        sc.close();
     }
 
 }

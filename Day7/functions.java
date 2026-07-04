@@ -55,6 +55,7 @@ public class functions {
         int num = sc.nextInt();
         factorial(num);
 
+        sc.close();
 
 
 

@@ -26,5 +26,7 @@ public class twoDArrays {
             System.out.println();
         }
 
+        sc.close();
+
     }
 }
