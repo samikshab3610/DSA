@@ -4,7 +4,7 @@ package Day8;
 import java.util.*;
 
 
-public class sumOfOdd {
+public class SumOfOdd {
     public static int sumOfOdd(int n){
         int sum =0;
         for (int i = 1; i<=n; i++){
@@ -19,5 +19,7 @@ public class sumOfOdd {
         int n = sc.nextInt();
 
         System.out.println("Sum of Odd is "+ sumOfOdd(n));
+
+        sc.close();
     }
 }

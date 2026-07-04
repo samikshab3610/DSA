@@ -3,12 +3,12 @@
 package Day8;
 import java.util.*;
 
-public class greaterNumber {
-    public static void greaterNumber(int num1, int num2){
-        if (num1<num2) {
-            System.out.println(num2+" is greater");
+public class GreaterNumber {
+    public static int greaterNumber(int num1, int num2){
+        if (num1 < num2) {
+            return num2;
         } else {
-            System.out.println(num1+" is greater");
+            return num1;
         }
     }
     public static void main(String[] args) {
@@ -16,6 +16,8 @@ public class greaterNumber {
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
 
-        greaterNumber(num1, num2);
+        int result = greaterNumber(num1, num2);
+        System.out.println(result + " is greater");
+        sc.close();
     }
 }

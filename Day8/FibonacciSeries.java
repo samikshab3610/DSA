@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class FibonacciSeries {
 
-    public static void FibonacciSeries(int n){
+    public static void printFibonacciSeries(int n) {
         int a = 0, b = 1;
 
         for (int i = 1; i <= n; i++) {
@@ -13,13 +13,14 @@ public class FibonacciSeries {
             a = b;
             b = next;
         }
+        System.out.println();
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter how much the elements should be there in the series: ");
+        System.out.print("Enter how many terms to print: ");
         int n = sc.nextInt();
-        FibonacciSeries(n);
+        printFibonacciSeries(n);
         sc.close();
     }
 }
